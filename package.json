@@ -1,0 +1,29 @@
+{
+  "name": "qa-stackoverflow",
+  "version": "1.0.0",
+  "description": "RESTAPI-stackoverflow",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafidziapermana/qa-stackoverflow.git"
+  },
+  "keywords": [],
+  "author": "Hafidz Permana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hafidziapermana/qa-stackoverflow/issues"
+  },
+  "homepage": "https://github.com/hafidziapermana/qa-stackoverflow#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
